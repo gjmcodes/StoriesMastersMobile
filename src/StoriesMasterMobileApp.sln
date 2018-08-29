@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoriesMasterMobileApp", "StoriesMasterMobileApp\StoriesMasterMobileApp\StoriesMasterMobileApp.csproj", "{7E379C4C-E5AB-46EC-BD72-15240EBBED19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoriesMasterMobileApp.Android", "StoriesMasterMobileApp\StoriesMasterMobileApp.Android\StoriesMasterMobileApp.Android.csproj", "{95BDE3E9-FFBB-4CE6-AF09-EC72F49E2879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Core", "1 - Core", "{7E5234AC-29E3-4A58-A648-9380C76412E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{BFFE13BD-3F12-4A16-A239-1227C141CD60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - CrossCutting", "2.1 - CrossCutting", "{449FDC02-B5B3-42F9-AA49-137C28F2ACAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - Data", "2.2 - Data", "{1693FFD6-4B84-4781-9C0F-5901FE17102D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting.IoC", "CrossCutting.IoC\CrossCutting.IoC.csproj", "{6C6FF0A3-70A0-442F-AC30-5FE0AF623CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting.Disposable", "CrossCutting.Disposable\CrossCutting.Disposable.csproj", "{12F1F90F-0DA4-4E42-A510-47705E132084}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E379C4C-E5AB-46EC-BD72-15240EBBED19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E379C4C-E5AB-46EC-BD72-15240EBBED19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E379C4C-E5AB-46EC-BD72-15240EBBED19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E379C4C-E5AB-46EC-BD72-15240EBBED19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95BDE3E9-FFBB-4CE6-AF09-EC72F49E2879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BDE3E9-FFBB-4CE6-AF09-EC72F49E2879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BDE3E9-FFBB-4CE6-AF09-EC72F49E2879}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{95BDE3E9-FFBB-4CE6-AF09-EC72F49E2879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BDE3E9-FFBB-4CE6-AF09-EC72F49E2879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95BDE3E9-FFBB-4CE6-AF09-EC72F49E2879}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6C6FF0A3-70A0-442F-AC30-5FE0AF623CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6FF0A3-70A0-442F-AC30-5FE0AF623CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6FF0A3-70A0-442F-AC30-5FE0AF623CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6FF0A3-70A0-442F-AC30-5FE0AF623CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F1F90F-0DA4-4E42-A510-47705E132084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F1F90F-0DA4-4E42-A510-47705E132084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F1F90F-0DA4-4E42-A510-47705E132084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F1F90F-0DA4-4E42-A510-47705E132084}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{449FDC02-B5B3-42F9-AA49-137C28F2ACAE} = {BFFE13BD-3F12-4A16-A239-1227C141CD60}
+		{1693FFD6-4B84-4781-9C0F-5901FE17102D} = {BFFE13BD-3F12-4A16-A239-1227C141CD60}
+		{6C6FF0A3-70A0-442F-AC30-5FE0AF623CB6} = {449FDC02-B5B3-42F9-AA49-137C28F2ACAE}
+		{12F1F90F-0DA4-4E42-A510-47705E132084} = {449FDC02-B5B3-42F9-AA49-137C28F2ACAE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2448673-7999-4A1E-A779-B35A41D0D932}
+	EndGlobalSection
+EndGlobal
